@@ -1,0 +1,7 @@
+[SERVICE]
+port="3000"
+debug=true
+
+[DATABASE]
+fileName="test.db"
+schema="test_db"
