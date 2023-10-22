@@ -89,21 +89,6 @@ components:
                 authentication:
                   type: string
                   examples: [test1234]
-    Error:
-      required:
-        - code
-        - message
-      type: object
-      properties:
-        code:
-          type: integer
-          format: int32
-          description: Error code
-        message:
-          type: string
-          description: model of the printer
-          enum:
-            - PrinterNotFound
     Response:
       required:
         - status
