@@ -4,32 +4,29 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Lightweight",
+    Svg: require("../../static/img/lightweight.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Designed from the ground up to run on almost every piece of hardware including the Pi Zero.
       </>
     ),
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+    title: "Unified at Last",
+    Svg: require("../../static/img/unified-handshake.svg").default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Use all of your 3D printers in one place, supporting Prusa, Tiertime, and more...
       </>
     ),
   },
   {
-    title: "Powered by React",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    title: "API-first",
+    Svg: require("../../static/img/api-puzzle.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Don't want to use our user inteface? No problem, our APIs can be used standalone.
       </>
     ),
   },
