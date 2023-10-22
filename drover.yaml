@@ -5,7 +5,7 @@ info:
     This is the API used to control the Drover product.
   license:
     name: MIT
-    url: http://www.apache.org/licenses/LICENSE-2.0.html
+    url: https://github.com/joshm998/drover/blob/main/LICENSE
   version: 0.0.1
 servers:
   - url: http://localhost:8080/api
